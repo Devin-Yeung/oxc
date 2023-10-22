@@ -129,6 +129,7 @@ mod react {
     pub mod jsx_no_duplicate_props;
     pub mod jsx_no_useless_fragment;
     pub mod no_children_prop;
+    pub mod no_string_refs;
 }
 
 mod unicorn {
@@ -256,6 +257,7 @@ oxc_macros::declare_all_lint_rules! {
     react::jsx_no_duplicate_props,
     react::jsx_no_useless_fragment,
     react::no_children_prop,
+    react::no_string_refs,
     import::named,
     import::no_cycle,
     import::no_self_import,
