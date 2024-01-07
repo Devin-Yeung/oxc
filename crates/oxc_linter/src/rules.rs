@@ -153,6 +153,7 @@ mod react {
     pub mod no_string_refs;
     pub mod no_unescaped_entities;
     pub mod react_in_jsx_scope;
+    pub mod require_render_return;
 }
 
 mod unicorn {
@@ -462,6 +463,7 @@ oxc_macros::declare_all_lint_rules! {
     react::jsx_no_useless_fragment,
     react::jsx_no_undef,
     react::react_in_jsx_scope,
+    react::require_render_return,
     react::no_children_prop,
     react::no_dangerously_set_inner_html,
     react::no_find_dom_node,
